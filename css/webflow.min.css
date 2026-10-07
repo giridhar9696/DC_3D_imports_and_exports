@@ -15,3 +15,30 @@ footer a[href="/insights.html"],footer a[href="/merchandises.html"],footer a[hre
 .service-img-deco{display:none!important}
 .loader-logo-ic svg{display:none!important}
 .loader-logo-ic:after{content:"DC Imports and Exports";display:block;color:currentColor;font-size:clamp(1.1rem,2.2vw,2.4rem);font-weight:700;line-height:1;white-space:nowrap}
+.header-logo:before{content:"";display:block;width:11rem;height:5rem;background:url('/assets/apl-logo.png') center/contain no-repeat}
+.loader-logo-ic:after{content:"";width:10rem;height:5rem;background:url('/assets/apl-logo.png') center/contain no-repeat}
+.home-hero-desc{display:none!important}
+.home-hero-title h1:after{content:"WE IMAGINE BETTER WAYS TO SERVE A WORLD IN MOTION";font-size:clamp(2.5rem,6vw,6rem);line-height:.9}
+.home-service-stick.second-screen{background:initial!important;display:block!important;align-items:initial;justify-content:initial}
+.home-service-stick.second-screen>*{visibility:visible!important}
+.home-service-stick.second-screen:after{content:none!important}
+.header-dropdown-link[href="/community.html"],.footer-link[href="/community.html"]{display:none!important}
+.footer-menu-list .footer-link{font-size:1.15rem!important}
+.footer-link .social-label{font-size:.8rem;font-weight:700;line-height:1}
+#footer-particle-canvas{transform:scale(1.08);transform-origin:center}
+.apl-offices-section{background:#f4f6f8;color:#111;padding:clamp(4rem,8vw,8rem) 4vw}
+.about-team-wrap{display:none!important}
+.footer-wrap{height:auto!important}
+.header-menu-toggle-wrap,.header-dropdown{display:none!important}
+.apl-glass-nav{position:fixed;z-index:10000;top:1rem;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:.2rem;max-width:calc(100vw - 12rem);padding:.45rem .6rem;border:1px solid rgba(255,255,255,.28);border-radius:999px;background:rgba(20,24,30,.32);box-shadow:0 .6rem 2rem rgba(0,0,0,.14),inset 0 1px rgba(255,255,255,.2);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);white-space:nowrap;overflow:auto}
+.apl-glass-nav a{color:#fff;padding:.65rem .8rem;font-family:var(--font--mono,monospace);font-size:.72rem;line-height:1;text-decoration:none;text-transform:uppercase;transition:background-color .25s,color .25s}
+.apl-glass-nav a:hover,.apl-glass-nav a:focus-visible{background:rgba(255,255,255,.16);border-radius:999px;color:#fff}
+@media(max-width:767px){.apl-glass-nav{left:1rem;right:1rem;transform:none;max-width:none;justify-content:flex-start}.apl-glass-nav a{padding:.6rem .65rem;font-size:.62rem}}
+.apl-offices-inner{max-width:90rem;margin:0 auto}
+.apl-offices-kicker{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:1rem}
+.apl-offices-section h2{font-size:clamp(2.5rem,6vw,6rem);line-height:.95;margin:0 0 1.25rem;text-transform:uppercase}
+.apl-offices-section p{font-size:1.15rem;max-width:34rem;margin:0 0 2rem}
+.apl-offices-frame{height:min(72vh,52rem);min-height:34rem;background:#fff;overflow:hidden;border:1px solid rgba(17,17,17,.15)}
+.apl-offices-frame iframe{width:100%;height:100%;border:0}
+.header-menu-list .header-link-wrap:last-child .txt{font-size:clamp(.75rem,1vw,1rem)!important}
+@media(max-width:767px){.apl-offices-section{padding:4rem 1.25rem}.apl-offices-frame{height:70vh;min-height:28rem}}
